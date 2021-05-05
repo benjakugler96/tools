@@ -4,6 +4,7 @@
 
 <!-- This intro is synced with the website via the `./rome run scripts/generate-files/website-intro` script. Make sure you run it after modifying anything between these comments. -->
 <!-- INTRO START -->
+
 **Rome** is a linter, compiler, bundler, and [more](https://rome.tools/#development-status) for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS.
 
 **Rome** is designed to replace [Babel](https://babeljs.io/), [ESLint](https://eslint.org/), [webpack](https://webpack.js.org/), [Prettier](https://prettier.io/), [Jest](https://jestjs.io/), and others.
@@ -17,6 +18,7 @@
 **Rome** is maintained by a [team of volunteers](https://rome.tools/credits#team) under an established [governance model](https://github.com/rome/tools/blob/main/GOVERNANCE.md).
 
 **Rome** is [MIT licensed](https://github.com/rome/tools/tree/main/LICENSE) and moderated under the [Contributor Covenant Code of Conduct](https://github.com/rome/tools/tree/main/CODE_OF_CONDUCT.md).
+
 <!-- INTRO END -->
 
 ## Status
@@ -25,7 +27,7 @@ The current area of focus is **linting**. See the umbrella task [#20](https://gi
 
 ## Getting Started
 
-To setup Rome in a project, all you need is a `rome.json` file.
+To setup Rome in a project, all you need is a `rome.rjson` file.
 
 ```bash
 $ mkdir hello-world
